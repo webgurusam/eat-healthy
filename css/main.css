@@ -127,3 +127,10 @@ section {
 .single-media {
     text-align: center;
 }
+
+.footer-info {
+    text-align: center;
+    background-color: #0B0D17;
+    padding: 20px 0 60px;
+    margin-top: 70px;
+}
