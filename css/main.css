@@ -4,8 +4,16 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .mb-100 {
     margin-bottom: 100px;
+}
+
+.mb-70 {
+    margin-bottom: 70px;
 }
 
 h1 {
@@ -57,10 +65,6 @@ section {
     width: 50%;
 }
 
-.order-food-info {
-    width: 40%;
-    margin-right: 10%;
-}
 
 .linked-button {
     background-image: linear-gradient(to left, #eb2ab0, #ef6fc4);
@@ -69,11 +73,12 @@ section {
     padding: 13px 40px;
     border-radius: 25px;
     display: inline-block;
+    margin-top: 25px;
 }
 
-.order-food-guy {
-    width: 40%;
-    margin-left: 10%;
+.order-food-lady {
+    margin-top: -50px;
+    width: 48%;
 }
 
 .eat-healthy-food-bg {
@@ -83,12 +88,17 @@ section {
 }
 
 .eat-healthy-food {
-    margin-right: 20%;
+    margin-right: 10%;
 }
 
-.eat-healthy-food img {}
+.eat-healthy-food img {
+    width: 71%;
+    margin-left: 20%;
+}
 
-.about-me-info {}
+.about-me-info {
+    width: 35%;
+}
 
 .about-me-info h2 {
     color: #707070;
@@ -96,6 +106,15 @@ section {
 
 .about-me-info p {
     margin-bottom: 50px;
+}
+
+.recipies {
+    width: 50%;
+    margin: 0 auto 25px;
+}
+
+.recipies h2 {
+    margin-top: 0;
 }
 
 .single-recipie {
@@ -115,13 +134,14 @@ section {
 }
 
 .social-media {
-    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 1%), 0 6px 20px 0 rgb(0 0 0 / 9%);
     border-radius: 25px;
-    padding: 20px;
+    padding: 25px;
 }
 
 .social-media h3 {
-    font-size: 25px;
+    font-size: 30px;
+    margin-bottom: 0;
 }
 
 .single-media {
@@ -133,4 +153,8 @@ section {
     background-color: #0B0D17;
     padding: 20px 0 60px;
     margin-top: 70px;
+}
+
+.footer-info p {
+    font-size: 14px;
 }
