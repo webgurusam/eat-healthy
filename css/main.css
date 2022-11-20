@@ -8,6 +8,10 @@ h1 {
     font-size: 45px;
 }
 
+h2 {
+    font-size: 35px;
+}
+
 a {
     text-decoration: none;
 }
@@ -31,7 +35,7 @@ img {
 }
 
 section {
-    margin: 70px 70px 0;
+    padding: 70px 70px 0;
 }
 
 .orange-color {
@@ -63,4 +67,26 @@ section {
 .order-food-guy {
     width: 40%;
     margin-left: 10%;
+}
+
+.eat-healthy-food-bg {
+    background-image: url(../images/shapes/frame-59.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.eat-healthy-food {
+    margin-right: 20%;
+}
+
+.eat-healthy-food img {}
+
+.about-me-info {}
+
+.about-me-info h2 {
+    color: #707070;
+}
+
+.about-me-info p {
+    margin-bottom: 50px;
 }
